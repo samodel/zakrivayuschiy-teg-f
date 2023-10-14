@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
+    <meta name="color-scheme" content="light dark" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
   </head>
+
   <body class="page">
     <header class="header card__content">
       <a class="header__logo"> &lt;/HTML&gt; </a>
@@ -18,7 +20,10 @@
       <nav class="theme-menu header__theme-menu">
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
-            <button type="button" data-theme="dark" class="theme-menu__button">
+            <button 
+              type="button" 
+              data-theme="dark" 
+              class="theme-menu__button">
               Темно
             </button>
           </li>
@@ -33,7 +38,10 @@
             </button>
           </li>
           <li class="theme-menu__item">
-            <button type="button" data-theme="light" class="theme-menu__button">
+            <button 
+              type="button" 
+              data-theme="light" 
+              class="theme-menu__button">
               Светло
             </button>
           </li>
@@ -62,7 +70,38 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
@@ -98,7 +137,38 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
@@ -132,11 +202,42 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
-            id="like-button-01"
+            
           >
             <span class="button__text">Like</span>
           </button>
@@ -167,11 +268,42 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
-            id="like-button-01"
+            
           >
             <span class="button__text">Like</span>
           </button>
@@ -206,11 +338,42 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
-            id="like-button-01"
+            
           >
             <span class="button__text">Like</span>
           </button>
@@ -239,11 +402,42 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
-            id="like-button-01"
+            
           >
             <span class="button__text">Like</span>
           </button>
@@ -276,11 +470,42 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="card__icon-button"></button>
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
           <button
             type="button"
             class="button card__like-button"
-            id="like-button-01"
+            
           >
             <span class="button__text">Like</span>
           </button>
@@ -313,15 +538,64 @@
           </p>
         </div>
         <div class="card__button-block">
-          <button type="button" class="button card__like-button">
+          <button type="button" class="card__icon-button">
+            <svg
+              class="like-icon"
+              width="39"
+              height="36"
+              viewBox="0 0 39 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <g class="heart">
+                <path
+                  class="contour"
+                  d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 27h-3v3h3v-3ZM21 9h-3v3h3V9Z"
+                />
+                <path
+                  class="main-body"
+                  fill="none"
+                  d="M12 9H9v3h3V9ZM15 12h-3v3h3v-3ZM18 9h-3v3h3V9ZM12 15H9v3h3v-3ZM15 15h-3v3h3v-3ZM15 18h-3v3h3v-3ZM18 12h-3v3h3v-3ZM18 21h-3v3h3v-3ZM18 18h-3v3h3v-3ZM27 9h3v3h-3V9ZM24 9h3v3h-3V9ZM27 12h3v3h-3v-3ZM24 12h3v3h-3v-3ZM21 9h3v3h-3V9ZM27 15h3v3h-3v-3ZM24 15h3v3h-3v-3ZM24 18h3v3h-3v-3ZM21 12h3v3h-3v-3ZM21 21h3v3h-3v-3ZM21 18h3v3h-3v-3ZM21 21h-3v3h3v-3ZM21 24h-3v3h3v-3Z"
+                />
+                <path
+                  class="core"
+                  d="M18 15h-3v3h3v-3ZM21 15h3v3h-3v-3ZM21 15h-3v3h3v-3ZM21 12h-3v3h3v-3ZM21 18h-3v3h3v-3Z"
+                />
+              </g>
+              <path
+                class="sparks"
+                fill="var(--accent-fill-color)"
+                d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM18 33h3v3h-3v-3ZM9 27h3v3H9v-3ZM24 0h3v3h-3V0ZM33 3h3v3h-3V3ZM3 3h3v3H3V3ZM12 0h3v3h-3V0ZM0 13h3v3H0v-3Z"
+              />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="button card__like-button"
+            
+          >
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
 
-      <button class="button button_type_floppy" type="button">
+      <button class="button button_type_floppy" type="button" onclick="window['popup'].showModal()">
+        
         <span class="button__text"> Сохранить на память </span>
       </button>
+
+      <dialog class="popup" id="popup">
+        <svg  viewBox="0 0 40 40" class="popup__icon" >
+          <use href="/svg/floppy.svg"></use>
+        </svg>
+        <p class="popup__title">Вставьте дискету, чтобы продолжить</p>
+        <form class="popup__form" method="dialog">
+          <button class="button popup__close">
+            <span class="button__text">Ок</span>
+          </button>
+        </form>
+      </dialog>
     </main>
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>
