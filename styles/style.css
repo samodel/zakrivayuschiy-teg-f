@@ -117,7 +117,7 @@
 }
 
 .card {
-  border: 3px solid currentColor;
+  border: 2px solid currentColor;
   background-color: var(--themes-background-color);
 }
 
@@ -142,7 +142,7 @@
   position: absolute;
   z-index: 1;
   opacity: 0.5;
-  color: var(--themes-main-color);
+  color: #000;
   font-family: var(--accent-font-family), fantasy;
   font-size: var(--accent-font-size);
   text-shadow: 0 0 1px var(--color-text-stroke);
@@ -195,6 +195,7 @@
 }
 
 .card__text-box {
+  border-block-start: 2px solid currentColor;
   padding: 25px;
 }
 
@@ -286,7 +287,6 @@
   position: relative;
   block-size: 1.5em;
   mix-blend-mode: difference;
-  fill: var(--themes-main-color)
 }
 
 .like-icon {
@@ -397,6 +397,22 @@
   text-transform: uppercase;
 }
 
+@media (width <= 376px) {
+  .popup {
+    width: 340px;
+    padding: 32px 40px;
+  }
 
+  *, *::after, *::before {
+    box-sizing: revert;
+}
 
+.button_type_floppy {
+  flex-direction: column;
+}
 
+.button_type_floppy svg {
+  block-size: 2.1em;
+}
+
+}

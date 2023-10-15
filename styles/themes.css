@@ -28,7 +28,7 @@
   --color-text-stroke: #fff;
 }
 
-@media (prefers-color-sheme: dark) {
+@media (prefers-color-sсheme: dark) {
   :root {
     --themes-main-color: #00cc14;
     --themes-background-color: #000;
