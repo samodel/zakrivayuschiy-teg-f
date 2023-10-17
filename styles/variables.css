@@ -9,7 +9,7 @@
   --title-font-weight: 700;
   --main-font-size: 18px;
   --accent-font-size: 14px;
-  --section-size: clamp(23.19rem, calc(15.95rem + 30.89vw), 43.75rem);
+  --section-size: clamp(23.19rem, calc(15.95rem + 30.89vw), 43.7rem);
   --logo-font-size: clamp(3.06rem, calc(2.71rem + 1.50vw), 4.06rem);
   --title-font-size: clamp(0.88rem, calc(0.68rem + 0.85vw), 1.44rem);
   --color-text-stroke: #fff;
@@ -19,8 +19,8 @@
     linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   :root {
-    --section-size: 100%;
+    --section-size: clamp(23.19rem, calc(15.95rem + 30.89vw));
   }
 }

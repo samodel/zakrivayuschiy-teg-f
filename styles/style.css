@@ -202,6 +202,7 @@
 .card__text {
   font-size: 18px;
   line-height: 1.17;
+  
 }
 
 .card__text:not(:last-child) {
@@ -285,9 +286,11 @@
 
 .button_type_floppy svg {
   position: relative;
-  block-size: 1.5em;
+  block-size: 2em;
   mix-blend-mode: difference;
+  width: 2em;
 }
+
 
 .like-icon {
   transform-origin: center;
@@ -366,11 +369,11 @@
   border: 2px solid var(--themes-main-color);
 }
 
-.popup[open] {
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  gap: 30px 20px;
+.modal-content {
+  display: flex;
+  gap: 20px;
   align-items: center;
+  height: 100px;
 }
 
 .popup[open]::backdrop {
@@ -379,7 +382,7 @@
 }
 
 .popup__icon {
-  width: 40px;
+  width: 85px;
 }
 
 .popup__title {
@@ -402,17 +405,7 @@
     width: 340px;
     padding: 32px 40px;
   }
-
-  *, *::after, *::before {
-    box-sizing: revert;
-}
-
-.button_type_floppy {
-  flex-direction: column;
-}
-
-.button_type_floppy svg {
-  block-size: 2.1em;
-}
-
+  .button_type_floppy {
+    flex-direction: column;
+  }
 }
