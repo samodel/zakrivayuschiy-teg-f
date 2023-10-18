@@ -15,7 +15,7 @@
 */
 
 .page {
-  padding: 100px 0 0;
+  padding: 100px 0;
   color: var(--themes-main-color);
   font-family: var(--main-font-family), sans-serif;
   background-color: var(--themes-background-color);
@@ -407,5 +407,12 @@
   }
   .button_type_floppy {
     flex-direction: column;
+  }
+  .button_type_floppy svg {
+    block-size: 2.1em;
+    width: 2.1em;
+  }
+  .popup__icon {
+    width: 100px;
   }
 }
