@@ -15,7 +15,7 @@
 */
 
 .page {
-  padding: 100px 0;
+  padding: 100px 0 0;
   color: var(--themes-main-color);
   font-family: var(--main-font-family), sans-serif;
   background-color: var(--themes-background-color);
@@ -286,9 +286,9 @@
 
 .button_type_floppy svg {
   position: relative;
-  block-size: 2em;
+  block-size: 1.55em;
   mix-blend-mode: difference;
-  width: 2em;
+  width: 1.55em;
 }
 
 
