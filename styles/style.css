@@ -373,7 +373,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  height: 100px;
+  margin-bottom: 30px;
 }
 
 .popup[open]::backdrop {
